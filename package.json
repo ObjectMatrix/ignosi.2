@@ -1,0 +1,24 @@
+{
+  "name": "ignosi",
+  "version": "1.0.0",
+  "description": "ignosi",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ignosi llc.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mysql2": "^2.0.2",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}
