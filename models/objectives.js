@@ -35,9 +35,5 @@ module.exports = (sequelize, DataTypes) => {
     // tableName: 'objectives',
   });
 
-  // Objective.associate = (models) => {
-  //   Objective.hasMany(models.post);
-  // };
-
   return Objective;
 };
